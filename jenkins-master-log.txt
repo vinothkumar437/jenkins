@@ -1,0 +1,974 @@
+kubernetes v1.11.0+d4cacc0
+features: Basic-Auth GSSAPI Kerberos SPNEGO
+
+Server https://172.30.0.1:443
+openshift v3.11.135
+kubernetes v1.11.0+d4cacc0
+OPENSHIFT_JENKINS_JVM_ARCH='', CONTAINER_MEMORY_IN_MB='1024', using /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-1.el7_7.i386/jre/bin/java and /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-1.el7_7.i386/bin/javac
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -Dsun.zip.disableMemoryMapping=true
+Linking /usr/lib/jenkins/ace-editor.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/apache-httpcomponents-client-4-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/authentication-tokens.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-autofavorite.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-bitbucket-pipeline.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-commons.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-config.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-core-js.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-dashboard.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-display-url.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-events.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-github-pipeline.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-git-pipeline.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-i18n.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-jira.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-jwt.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-personalization.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-pipeline-api-impl.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-pipeline-editor.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-pipeline-scm-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-rest.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-rest-impl.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-web.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/branch-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/cloudbees-bitbucket-branch-source.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/cloudbees-folder.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/conditional-buildstep.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/config-file-provider.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/credentials-binding.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/credentials.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/display-url-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/docker-commons.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/docker-workflow.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/durable-task.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/favorite.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/git-client.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/git.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/github-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/github-branch-source.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/github.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/github-organization-folder.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/git-server.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/handlebars.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/handy-uri-templates-2-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/htmlpublisher.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jackson2-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jenkins-design-language.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jira.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/job-dsl.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jquery-detached.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jsch.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/junit.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/kubernetes-credentials.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/kubernetes.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/lockable-resources.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/mailer.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/mapdb-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/matrix-auth.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/matrix-project.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/mercurial.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/momentjs.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/openshift-client.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/openshift-login.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/openshift-pipeline.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/openshift-sync.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/parameterized-trigger.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-build-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-github-lib.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-graph-analysis.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-input-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-milestone-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-model-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-model-declarative-agent.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-model-definition.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-model-extensions.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-rest-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-stage-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-stage-tags-metadata.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-stage-view.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-utility-steps.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/plain-credentials.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pubsub-light.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/run-condition.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/scm-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/script-security.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/sse-gateway.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/ssh-credentials.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/structs.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/subversion.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/token-macro.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/variant.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-aggregator.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-basic-steps.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-cps-global-lib.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-cps.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-durable-task-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-job.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-multibranch.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-remote-loader.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-scm-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-step-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-support.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Cleaning up links to base image plugins in /opt/openshift/plugins as part of this initial image start
+Looking at /opt/openshift/plugins/ace-editor.jpi and /usr/lib/jenkins/ace-editor.hpi
+/opt/openshift/plugins/ace-editor.jpi cksum 509243030 and /usr/lib/jenkins/ace-editor.hpi cksum 509243030
+Removing /opt/openshift/plugins/ace-editor.jpi
+Looking at /opt/openshift/plugins/apache-httpcomponents-client-4-api.jpi and /usr/lib/jenkins/apache-httpcomponents-client-4-api.hpi
+/opt/openshift/plugins/apache-httpcomponents-client-4-api.jpi cksum 2599357157 and /usr/lib/jenkins/apache-httpcomponents-client-4-api.hpi cksum 2599357157
+Removing /opt/openshift/plugins/apache-httpcomponents-client-4-api.jpi
+Looking at /opt/openshift/plugins/authentication-tokens.jpi and /usr/lib/jenkins/authentication-tokens.hpi
+/opt/openshift/plugins/authentication-tokens.jpi cksum 108748625 and /usr/lib/jenkins/authentication-tokens.hpi cksum 108748625
+Removing /opt/openshift/plugins/authentication-tokens.jpi
+Looking at /opt/openshift/plugins/blueocean-autofavorite.jpi and /usr/lib/jenkins/blueocean-autofavorite.hpi
+/opt/openshift/plugins/blueocean-autofavorite.jpi cksum 1768164818 and /usr/lib/jenkins/blueocean-autofavorite.hpi cksum 1768164818
+Removing /opt/openshift/plugins/blueocean-autofavorite.jpi
+Looking at /opt/openshift/plugins/blueocean-bitbucket-pipeline.jpi and /usr/lib/jenkins/blueocean-bitbucket-pipeline.hpi
+/opt/openshift/plugins/blueocean-bitbucket-pipeline.jpi cksum 1359576719 and /usr/lib/jenkins/blueocean-bitbucket-pipeline.hpi cksum 1359576719
+Removing /opt/openshift/plugins/blueocean-bitbucket-pipeline.jpi
+Looking at /opt/openshift/plugins/blueocean-commons.jpi and /usr/lib/jenkins/blueocean-commons.hpi
+/opt/openshift/plugins/blueocean-commons.jpi cksum 1513898347 and /usr/lib/jenkins/blueocean-commons.hpi cksum 1513898347
+Removing /opt/openshift/plugins/blueocean-commons.jpi
+Looking at /opt/openshift/plugins/blueocean-config.jpi and /usr/lib/jenkins/blueocean-config.hpi
+/opt/openshift/plugins/blueocean-config.jpi cksum 1318948896 and /usr/lib/jenkins/blueocean-config.hpi cksum 1318948896
+Removing /opt/openshift/plugins/blueocean-config.jpi
+Looking at /opt/openshift/plugins/blueocean-core-js.jpi and /usr/lib/jenkins/blueocean-core-js.hpi
+/opt/openshift/plugins/blueocean-core-js.jpi cksum 3798092970 and /usr/lib/jenkins/blueocean-core-js.hpi cksum 3798092970
+Removing /opt/openshift/plugins/blueocean-core-js.jpi
+Looking at /opt/openshift/plugins/blueocean-dashboard.jpi and /usr/lib/jenkins/blueocean-dashboard.hpi
+/opt/openshift/plugins/blueocean-dashboard.jpi cksum 2501301631 and /usr/lib/jenkins/blueocean-dashboard.hpi cksum 2501301631
+Removing /opt/openshift/plugins/blueocean-dashboard.jpi
+Looking at /opt/openshift/plugins/blueocean-display-url.jpi and /usr/lib/jenkins/blueocean-display-url.hpi
+/opt/openshift/plugins/blueocean-display-url.jpi cksum 1957987289 and /usr/lib/jenkins/blueocean-display-url.hpi cksum 1957987289
+Removing /opt/openshift/plugins/blueocean-display-url.jpi
+Looking at /opt/openshift/plugins/blueocean-events.jpi and /usr/lib/jenkins/blueocean-events.hpi
+/opt/openshift/plugins/blueocean-events.jpi cksum 647998413 and /usr/lib/jenkins/blueocean-events.hpi cksum 647998413
+Removing /opt/openshift/plugins/blueocean-events.jpi
+Looking at /opt/openshift/plugins/blueocean-github-pipeline.jpi and /usr/lib/jenkins/blueocean-github-pipeline.hpi
+/opt/openshift/plugins/blueocean-github-pipeline.jpi cksum 2476432863 and /usr/lib/jenkins/blueocean-github-pipeline.hpi cksum 2476432863
+Removing /opt/openshift/plugins/blueocean-github-pipeline.jpi
+Looking at /opt/openshift/plugins/blueocean-git-pipeline.jpi and /usr/lib/jenkins/blueocean-git-pipeline.hpi
+/opt/openshift/plugins/blueocean-git-pipeline.jpi cksum 3348380181 and /usr/lib/jenkins/blueocean-git-pipeline.hpi cksum 3348380181
+Removing /opt/openshift/plugins/blueocean-git-pipeline.jpi
+Looking at /opt/openshift/plugins/blueocean-i18n.jpi and /usr/lib/jenkins/blueocean-i18n.hpi
+/opt/openshift/plugins/blueocean-i18n.jpi cksum 1687027717 and /usr/lib/jenkins/blueocean-i18n.hpi cksum 1687027717
+Removing /opt/openshift/plugins/blueocean-i18n.jpi
+Looking at /opt/openshift/plugins/blueocean-jira.jpi and /usr/lib/jenkins/blueocean-jira.hpi
+/opt/openshift/plugins/blueocean-jira.jpi cksum 4121709416 and /usr/lib/jenkins/blueocean-jira.hpi cksum 4121709416
+Removing /opt/openshift/plugins/blueocean-jira.jpi
+Looking at /opt/openshift/plugins/blueocean.jpi and /usr/lib/jenkins/blueocean.hpi
+/opt/openshift/plugins/blueocean.jpi cksum 627960631 and /usr/lib/jenkins/blueocean.hpi cksum 627960631
+Removing /opt/openshift/plugins/blueocean.jpi
+Looking at /opt/openshift/plugins/blueocean-jwt.jpi and /usr/lib/jenkins/blueocean-jwt.hpi
+/opt/openshift/plugins/blueocean-jwt.jpi cksum 3021125532 and /usr/lib/jenkins/blueocean-jwt.hpi cksum 3021125532
+Removing /opt/openshift/plugins/blueocean-jwt.jpi
+Looking at /opt/openshift/plugins/blueocean-personalization.jpi and /usr/lib/jenkins/blueocean-personalization.hpi
+/opt/openshift/plugins/blueocean-personalization.jpi cksum 2337475952 and /usr/lib/jenkins/blueocean-personalization.hpi cksum 2337475952
+Removing /opt/openshift/plugins/blueocean-personalization.jpi
+Looking at /opt/openshift/plugins/blueocean-pipeline-api-impl.jpi and /usr/lib/jenkins/blueocean-pipeline-api-impl.hpi
+/opt/openshift/plugins/blueocean-pipeline-api-impl.jpi cksum 2231874844 and /usr/lib/jenkins/blueocean-pipeline-api-impl.hpi cksum 2231874844
+Removing /opt/openshift/plugins/blueocean-pipeline-api-impl.jpi
+Looking at /opt/openshift/plugins/blueocean-pipeline-editor.jpi and /usr/lib/jenkins/blueocean-pipeline-editor.hpi
+/opt/openshift/plugins/blueocean-pipeline-editor.jpi cksum 4089836457 and /usr/lib/jenkins/blueocean-pipeline-editor.hpi cksum 4089836457
+Removing /opt/openshift/plugins/blueocean-pipeline-editor.jpi
+Looking at /opt/openshift/plugins/blueocean-pipeline-scm-api.jpi and /usr/lib/jenkins/blueocean-pipeline-scm-api.hpi
+/opt/openshift/plugins/blueocean-pipeline-scm-api.jpi cksum 1848692760 and /usr/lib/jenkins/blueocean-pipeline-scm-api.hpi cksum 1848692760
+Removing /opt/openshift/plugins/blueocean-pipeline-scm-api.jpi
+Looking at /opt/openshift/plugins/blueocean-rest-impl.jpi and /usr/lib/jenkins/blueocean-rest-impl.hpi
+/opt/openshift/plugins/blueocean-rest-impl.jpi cksum 2807744408 and /usr/lib/jenkins/blueocean-rest-impl.hpi cksum 2807744408
+Removing /opt/openshift/plugins/blueocean-rest-impl.jpi
+Looking at /opt/openshift/plugins/blueocean-rest.jpi and /usr/lib/jenkins/blueocean-rest.hpi
+/opt/openshift/plugins/blueocean-rest.jpi cksum 1265987476 and /usr/lib/jenkins/blueocean-rest.hpi cksum 1265987476
+Removing /opt/openshift/plugins/blueocean-rest.jpi
+Looking at /opt/openshift/plugins/blueocean-web.jpi and /usr/lib/jenkins/blueocean-web.hpi
+/opt/openshift/plugins/blueocean-web.jpi cksum 3220910710 and /usr/lib/jenkins/blueocean-web.hpi cksum 3220910710
+Removing /opt/openshift/plugins/blueocean-web.jpi
+Looking at /opt/openshift/plugins/branch-api.jpi and /usr/lib/jenkins/branch-api.hpi
+/opt/openshift/plugins/branch-api.jpi cksum 1909939118 and /usr/lib/jenkins/branch-api.hpi cksum 1909939118
+Removing /opt/openshift/plugins/branch-api.jpi
+Looking at /opt/openshift/plugins/cloudbees-bitbucket-branch-source.jpi and /usr/lib/jenkins/cloudbees-bitbucket-branch-source.hpi
+/opt/openshift/plugins/cloudbees-bitbucket-branch-source.jpi cksum 1293936285 and /usr/lib/jenkins/cloudbees-bitbucket-branch-source.hpi cksum 1293936285
+Removing /opt/openshift/plugins/cloudbees-bitbucket-branch-source.jpi
+Looking at /opt/openshift/plugins/cloudbees-folder.jpi and /usr/lib/jenkins/cloudbees-folder.hpi
+/opt/openshift/plugins/cloudbees-folder.jpi cksum 1030379356 and /usr/lib/jenkins/cloudbees-folder.hpi cksum 1030379356
+Removing /opt/openshift/plugins/cloudbees-folder.jpi
+Looking at /opt/openshift/plugins/conditional-buildstep.jpi and /usr/lib/jenkins/conditional-buildstep.hpi
+/opt/openshift/plugins/conditional-buildstep.jpi cksum 1105711828 and /usr/lib/jenkins/conditional-buildstep.hpi cksum 1105711828
+Removing /opt/openshift/plugins/conditional-buildstep.jpi
+Looking at /opt/openshift/plugins/config-file-provider.jpi and /usr/lib/jenkins/config-file-provider.hpi
+/opt/openshift/plugins/config-file-provider.jpi cksum 2029272460 and /usr/lib/jenkins/config-file-provider.hpi cksum 2029272460
+Removing /opt/openshift/plugins/config-file-provider.jpi
+Looking at /opt/openshift/plugins/credentials-binding.jpi and /usr/lib/jenkins/credentials-binding.hpi
+/opt/openshift/plugins/credentials-binding.jpi cksum 2561578571 and /usr/lib/jenkins/credentials-binding.hpi cksum 2561578571
+Removing /opt/openshift/plugins/credentials-binding.jpi
+Looking at /opt/openshift/plugins/credentials.jpi and /usr/lib/jenkins/credentials.hpi
+/opt/openshift/plugins/credentials.jpi cksum 3885981484 and /usr/lib/jenkins/credentials.hpi cksum 3885981484
+Removing /opt/openshift/plugins/credentials.jpi
+Looking at /opt/openshift/plugins/display-url-api.jpi and /usr/lib/jenkins/display-url-api.hpi
+/opt/openshift/plugins/display-url-api.jpi cksum 3898071394 and /usr/lib/jenkins/display-url-api.hpi cksum 3898071394
+Removing /opt/openshift/plugins/display-url-api.jpi
+Looking at /opt/openshift/plugins/docker-commons.jpi and /usr/lib/jenkins/docker-commons.hpi
+/opt/openshift/plugins/docker-commons.jpi cksum 1982380285 and /usr/lib/jenkins/docker-commons.hpi cksum 1982380285
+Removing /opt/openshift/plugins/docker-commons.jpi
+Looking at /opt/openshift/plugins/docker-workflow.jpi and /usr/lib/jenkins/docker-workflow.hpi
+/opt/openshift/plugins/docker-workflow.jpi cksum 3858771770 and /usr/lib/jenkins/docker-workflow.hpi cksum 3858771770
+Removing /opt/openshift/plugins/docker-workflow.jpi
+Looking at /opt/openshift/plugins/durable-task.jpi and /usr/lib/jenkins/durable-task.hpi
+/opt/openshift/plugins/durable-task.jpi cksum 2181487941 and /usr/lib/jenkins/durable-task.hpi cksum 2181487941
+Removing /opt/openshift/plugins/durable-task.jpi
+Looking at /opt/openshift/plugins/favorite.jpi and /usr/lib/jenkins/favorite.hpi
+/opt/openshift/plugins/favorite.jpi cksum 4293730588 and /usr/lib/jenkins/favorite.hpi cksum 4293730588
+Removing /opt/openshift/plugins/favorite.jpi
+Looking at /opt/openshift/plugins/git-client.jpi and /usr/lib/jenkins/git-client.hpi
+/opt/openshift/plugins/git-client.jpi cksum 86052759 and /usr/lib/jenkins/git-client.hpi cksum 86052759
+Removing /opt/openshift/plugins/git-client.jpi
+Looking at /opt/openshift/plugins/github-api.jpi and /usr/lib/jenkins/github-api.hpi
+/opt/openshift/plugins/github-api.jpi cksum 1605171568 and /usr/lib/jenkins/github-api.hpi cksum 1605171568
+Removing /opt/openshift/plugins/github-api.jpi
+Looking at /opt/openshift/plugins/github-branch-source.jpi and /usr/lib/jenkins/github-branch-source.hpi
+/opt/openshift/plugins/github-branch-source.jpi cksum 1245241371 and /usr/lib/jenkins/github-branch-source.hpi cksum 1245241371
+Removing /opt/openshift/plugins/github-branch-source.jpi
+Looking at /opt/openshift/plugins/github.jpi and /usr/lib/jenkins/github.hpi
+/opt/openshift/plugins/github.jpi cksum 1756580470 and /usr/lib/jenkins/github.hpi cksum 1756580470
+Removing /opt/openshift/plugins/github.jpi
+Looking at /opt/openshift/plugins/github-organization-folder.jpi and /usr/lib/jenkins/github-organization-folder.hpi
+/opt/openshift/plugins/github-organization-folder.jpi cksum 3014875412 and /usr/lib/jenkins/github-organization-folder.hpi cksum 3014875412
+Removing /opt/openshift/plugins/github-organization-folder.jpi
+Looking at /opt/openshift/plugins/git.jpi and /usr/lib/jenkins/git.hpi
+/opt/openshift/plugins/git.jpi cksum 538515693 and /usr/lib/jenkins/git.hpi cksum 538515693
+Removing /opt/openshift/plugins/git.jpi
+Looking at /opt/openshift/plugins/git-server.jpi and /usr/lib/jenkins/git-server.hpi
+/opt/openshift/plugins/git-server.jpi cksum 3643761450 and /usr/lib/jenkins/git-server.hpi cksum 3643761450
+Removing /opt/openshift/plugins/git-server.jpi
+Looking at /opt/openshift/plugins/handlebars.jpi and /usr/lib/jenkins/handlebars.hpi
+/opt/openshift/plugins/handlebars.jpi cksum 579203682 and /usr/lib/jenkins/handlebars.hpi cksum 579203682
+Removing /opt/openshift/plugins/handlebars.jpi
+Looking at /opt/openshift/plugins/handy-uri-templates-2-api.jpi and /usr/lib/jenkins/handy-uri-templates-2-api.hpi
+/opt/openshift/plugins/handy-uri-templates-2-api.jpi cksum 659990959 and /usr/lib/jenkins/handy-uri-templates-2-api.hpi cksum 659990959
+Removing /opt/openshift/plugins/handy-uri-templates-2-api.jpi
+Looking at /opt/openshift/plugins/htmlpublisher.jpi and /usr/lib/jenkins/htmlpublisher.hpi
+/opt/openshift/plugins/htmlpublisher.jpi cksum 3825926831 and /usr/lib/jenkins/htmlpublisher.hpi cksum 3825926831
+Removing /opt/openshift/plugins/htmlpublisher.jpi
+Looking at /opt/openshift/plugins/jackson2-api.jpi and /usr/lib/jenkins/jackson2-api.hpi
+/opt/openshift/plugins/jackson2-api.jpi cksum 3315426643 and /usr/lib/jenkins/jackson2-api.hpi cksum 3315426643
+Removing /opt/openshift/plugins/jackson2-api.jpi
+Looking at /opt/openshift/plugins/jenkins-design-language.jpi and /usr/lib/jenkins/jenkins-design-language.hpi
+/opt/openshift/plugins/jenkins-design-language.jpi cksum 2162837697 and /usr/lib/jenkins/jenkins-design-language.hpi cksum 2162837697
+Removing /opt/openshift/plugins/jenkins-design-language.jpi
+Looking at /opt/openshift/plugins/jira.jpi and /usr/lib/jenkins/jira.hpi
+/opt/openshift/plugins/jira.jpi cksum 4153338673 and /usr/lib/jenkins/jira.hpi cksum 4153338673
+Removing /opt/openshift/plugins/jira.jpi
+Looking at /opt/openshift/plugins/job-dsl.jpi and /usr/lib/jenkins/job-dsl.hpi
+/opt/openshift/plugins/job-dsl.jpi cksum 225461446 and /usr/lib/jenkins/job-dsl.hpi cksum 225461446
+Removing /opt/openshift/plugins/job-dsl.jpi
+Looking at /opt/openshift/plugins/jquery-detached.jpi and /usr/lib/jenkins/jquery-detached.hpi
+/opt/openshift/plugins/jquery-detached.jpi cksum 971505505 and /usr/lib/jenkins/jquery-detached.hpi cksum 971505505
+Removing /opt/openshift/plugins/jquery-detached.jpi
+Looking at /opt/openshift/plugins/jsch.jpi and /usr/lib/jenkins/jsch.hpi
+/opt/openshift/plugins/jsch.jpi cksum 1476383437 and /usr/lib/jenkins/jsch.hpi cksum 1476383437
+Removing /opt/openshift/plugins/jsch.jpi
+Looking at /opt/openshift/plugins/junit.jpi and /usr/lib/jenkins/junit.hpi
+/opt/openshift/plugins/junit.jpi cksum 3591137996 and /usr/lib/jenkins/junit.hpi cksum 3591137996
+Removing /opt/openshift/plugins/junit.jpi
+Looking at /opt/openshift/plugins/kubernetes-credentials.jpi and /usr/lib/jenkins/kubernetes-credentials.hpi
+/opt/openshift/plugins/kubernetes-credentials.jpi cksum 2075875095 and /usr/lib/jenkins/kubernetes-credentials.hpi cksum 2075875095
+Removing /opt/openshift/plugins/kubernetes-credentials.jpi
+Looking at /opt/openshift/plugins/kubernetes.jpi and /usr/lib/jenkins/kubernetes.hpi
+/opt/openshift/plugins/kubernetes.jpi cksum 3417769129 and /usr/lib/jenkins/kubernetes.hpi cksum 3417769129
+Removing /opt/openshift/plugins/kubernetes.jpi
+Looking at /opt/openshift/plugins/lockable-resources.jpi and /usr/lib/jenkins/lockable-resources.hpi
+/opt/openshift/plugins/lockable-resources.jpi cksum 1282895222 and /usr/lib/jenkins/lockable-resources.hpi cksum 1282895222
+Removing /opt/openshift/plugins/lockable-resources.jpi
+Looking at /opt/openshift/plugins/mailer.jpi and /usr/lib/jenkins/mailer.hpi
+/opt/openshift/plugins/mailer.jpi cksum 1114386690 and /usr/lib/jenkins/mailer.hpi cksum 1114386690
+Removing /opt/openshift/plugins/mailer.jpi
+Looking at /opt/openshift/plugins/mapdb-api.jpi and /usr/lib/jenkins/mapdb-api.hpi
+/opt/openshift/plugins/mapdb-api.jpi cksum 4037221319 and /usr/lib/jenkins/mapdb-api.hpi cksum 4037221319
+Removing /opt/openshift/plugins/mapdb-api.jpi
+Looking at /opt/openshift/plugins/matrix-auth.jpi and /usr/lib/jenkins/matrix-auth.hpi
+/opt/openshift/plugins/matrix-auth.jpi cksum 2243297461 and /usr/lib/jenkins/matrix-auth.hpi cksum 2243297461
+Removing /opt/openshift/plugins/matrix-auth.jpi
+Looking at /opt/openshift/plugins/matrix-project.jpi and /usr/lib/jenkins/matrix-project.hpi
+/opt/openshift/plugins/matrix-project.jpi cksum 4093935534 and /usr/lib/jenkins/matrix-project.hpi cksum 4093935534
+Removing /opt/openshift/plugins/matrix-project.jpi
+Looking at /opt/openshift/plugins/mercurial.jpi and /usr/lib/jenkins/mercurial.hpi
+/opt/openshift/plugins/mercurial.jpi cksum 2982838255 and /usr/lib/jenkins/mercurial.hpi cksum 2982838255
+Removing /opt/openshift/plugins/mercurial.jpi
+Looking at /opt/openshift/plugins/momentjs.jpi and /usr/lib/jenkins/momentjs.hpi
+/opt/openshift/plugins/momentjs.jpi cksum 1741141388 and /usr/lib/jenkins/momentjs.hpi cksum 1741141388
+Removing /opt/openshift/plugins/momentjs.jpi
+Looking at /opt/openshift/plugins/openshift-client.jpi and /usr/lib/jenkins/openshift-client.hpi
+/opt/openshift/plugins/openshift-client.jpi cksum 4263050664 and /usr/lib/jenkins/openshift-client.hpi cksum 4263050664
+Removing /opt/openshift/plugins/openshift-client.jpi
+Looking at /opt/openshift/plugins/openshift-login.jpi and /usr/lib/jenkins/openshift-login.hpi
+/opt/openshift/plugins/openshift-login.jpi cksum 507657904 and /usr/lib/jenkins/openshift-login.hpi cksum 507657904
+Removing /opt/openshift/plugins/openshift-login.jpi
+Looking at /opt/openshift/plugins/openshift-pipeline.jpi and /usr/lib/jenkins/openshift-pipeline.hpi
+/opt/openshift/plugins/openshift-pipeline.jpi cksum 1983481282 and /usr/lib/jenkins/openshift-pipeline.hpi cksum 1983481282
+Removing /opt/openshift/plugins/openshift-pipeline.jpi
+Looking at /opt/openshift/plugins/openshift-sync.jpi and /usr/lib/jenkins/openshift-sync.hpi
+/opt/openshift/plugins/openshift-sync.jpi cksum 932230042 and /usr/lib/jenkins/openshift-sync.hpi cksum 932230042
+Removing /opt/openshift/plugins/openshift-sync.jpi
+Looking at /opt/openshift/plugins/parameterized-trigger.jpi and /usr/lib/jenkins/parameterized-trigger.hpi
+/opt/openshift/plugins/parameterized-trigger.jpi cksum 1964111687 and /usr/lib/jenkins/parameterized-trigger.hpi cksum 1964111687
+Removing /opt/openshift/plugins/parameterized-trigger.jpi
+Looking at /opt/openshift/plugins/pipeline-build-step.jpi and /usr/lib/jenkins/pipeline-build-step.hpi
+/opt/openshift/plugins/pipeline-build-step.jpi cksum 2484014420 and /usr/lib/jenkins/pipeline-build-step.hpi cksum 2484014420
+Removing /opt/openshift/plugins/pipeline-build-step.jpi
+Looking at /opt/openshift/plugins/pipeline-github-lib.jpi and /usr/lib/jenkins/pipeline-github-lib.hpi
+/opt/openshift/plugins/pipeline-github-lib.jpi cksum 2082087914 and /usr/lib/jenkins/pipeline-github-lib.hpi cksum 2082087914
+Removing /opt/openshift/plugins/pipeline-github-lib.jpi
+Looking at /opt/openshift/plugins/pipeline-graph-analysis.jpi and /usr/lib/jenkins/pipeline-graph-analysis.hpi
+/opt/openshift/plugins/pipeline-graph-analysis.jpi cksum 145856509 and /usr/lib/jenkins/pipeline-graph-analysis.hpi cksum 145856509
+Removing /opt/openshift/plugins/pipeline-graph-analysis.jpi
+Looking at /opt/openshift/plugins/pipeline-input-step.jpi and /usr/lib/jenkins/pipeline-input-step.hpi
+/opt/openshift/plugins/pipeline-input-step.jpi cksum 1139036653 and /usr/lib/jenkins/pipeline-input-step.hpi cksum 1139036653
+Removing /opt/openshift/plugins/pipeline-input-step.jpi
+Looking at /opt/openshift/plugins/pipeline-milestone-step.jpi and /usr/lib/jenkins/pipeline-milestone-step.hpi
+/opt/openshift/plugins/pipeline-milestone-step.jpi cksum 4063519313 and /usr/lib/jenkins/pipeline-milestone-step.hpi cksum 4063519313
+Removing /opt/openshift/plugins/pipeline-milestone-step.jpi
+Looking at /opt/openshift/plugins/pipeline-model-api.jpi and /usr/lib/jenkins/pipeline-model-api.hpi
+/opt/openshift/plugins/pipeline-model-api.jpi cksum 1950083694 and /usr/lib/jenkins/pipeline-model-api.hpi cksum 1950083694
+Removing /opt/openshift/plugins/pipeline-model-api.jpi
+Looking at /opt/openshift/plugins/pipeline-model-declarative-agent.jpi and /usr/lib/jenkins/pipeline-model-declarative-agent.hpi
+/opt/openshift/plugins/pipeline-model-declarative-agent.jpi cksum 4228925249 and /usr/lib/jenkins/pipeline-model-declarative-agent.hpi cksum 4228925249
+Removing /opt/openshift/plugins/pipeline-model-declarative-agent.jpi
+Looking at /opt/openshift/plugins/pipeline-model-definition.jpi and /usr/lib/jenkins/pipeline-model-definition.hpi
+/opt/openshift/plugins/pipeline-model-definition.jpi cksum 1364316661 and /usr/lib/jenkins/pipeline-model-definition.hpi cksum 1364316661
+Removing /opt/openshift/plugins/pipeline-model-definition.jpi
+Looking at /opt/openshift/plugins/pipeline-model-extensions.jpi and /usr/lib/jenkins/pipeline-model-extensions.hpi
+/opt/openshift/plugins/pipeline-model-extensions.jpi cksum 4167085123 and /usr/lib/jenkins/pipeline-model-extensions.hpi cksum 4167085123
+Removing /opt/openshift/plugins/pipeline-model-extensions.jpi
+Looking at /opt/openshift/plugins/pipeline-rest-api.jpi and /usr/lib/jenkins/pipeline-rest-api.hpi
+/opt/openshift/plugins/pipeline-rest-api.jpi cksum 3365172062 and /usr/lib/jenkins/pipeline-rest-api.hpi cksum 3365172062
+Removing /opt/openshift/plugins/pipeline-rest-api.jpi
+Looking at /opt/openshift/plugins/pipeline-stage-step.jpi and /usr/lib/jenkins/pipeline-stage-step.hpi
+/opt/openshift/plugins/pipeline-stage-step.jpi cksum 16225596 and /usr/lib/jenkins/pipeline-stage-step.hpi cksum 16225596
+Removing /opt/openshift/plugins/pipeline-stage-step.jpi
+Looking at /opt/openshift/plugins/pipeline-stage-tags-metadata.jpi and /usr/lib/jenkins/pipeline-stage-tags-metadata.hpi
+/opt/openshift/plugins/pipeline-stage-tags-metadata.jpi cksum 2892171257 and /usr/lib/jenkins/pipeline-stage-tags-metadata.hpi cksum 2892171257
+Removing /opt/openshift/plugins/pipeline-stage-tags-metadata.jpi
+Looking at /opt/openshift/plugins/pipeline-stage-view.jpi and /usr/lib/jenkins/pipeline-stage-view.hpi
+/opt/openshift/plugins/pipeline-stage-view.jpi cksum 4164097562 and /usr/lib/jenkins/pipeline-stage-view.hpi cksum 4164097562
+Removing /opt/openshift/plugins/pipeline-stage-view.jpi
+Looking at /opt/openshift/plugins/pipeline-utility-steps.jpi and /usr/lib/jenkins/pipeline-utility-steps.hpi
+/opt/openshift/plugins/pipeline-utility-steps.jpi cksum 2375578284 and /usr/lib/jenkins/pipeline-utility-steps.hpi cksum 2375578284
+Removing /opt/openshift/plugins/pipeline-utility-steps.jpi
+Looking at /opt/openshift/plugins/plain-credentials.jpi and /usr/lib/jenkins/plain-credentials.hpi
+/opt/openshift/plugins/plain-credentials.jpi cksum 1252693797 and /usr/lib/jenkins/plain-credentials.hpi cksum 1252693797
+Removing /opt/openshift/plugins/plain-credentials.jpi
+Looking at /opt/openshift/plugins/pubsub-light.jpi and /usr/lib/jenkins/pubsub-light.hpi
+/opt/openshift/plugins/pubsub-light.jpi cksum 2283371636 and /usr/lib/jenkins/pubsub-light.hpi cksum 2283371636
+Removing /opt/openshift/plugins/pubsub-light.jpi
+Looking at /opt/openshift/plugins/run-condition.jpi and /usr/lib/jenkins/run-condition.hpi
+/opt/openshift/plugins/run-condition.jpi cksum 1367092452 and /usr/lib/jenkins/run-condition.hpi cksum 1367092452
+Removing /opt/openshift/plugins/run-condition.jpi
+Looking at /opt/openshift/plugins/scm-api.jpi and /usr/lib/jenkins/scm-api.hpi
+/opt/openshift/plugins/scm-api.jpi cksum 4218343108 and /usr/lib/jenkins/scm-api.hpi cksum 4218343108
+Removing /opt/openshift/plugins/scm-api.jpi
+Looking at /opt/openshift/plugins/script-security.jpi and /usr/lib/jenkins/script-security.hpi
+/opt/openshift/plugins/script-security.jpi cksum 719450284 and /usr/lib/jenkins/script-security.hpi cksum 719450284
+Removing /opt/openshift/plugins/script-security.jpi
+Looking at /opt/openshift/plugins/sse-gateway.jpi and /usr/lib/jenkins/sse-gateway.hpi
+/opt/openshift/plugins/sse-gateway.jpi cksum 2395973251 and /usr/lib/jenkins/sse-gateway.hpi cksum 2395973251
+Removing /opt/openshift/plugins/sse-gateway.jpi
+Looking at /opt/openshift/plugins/ssh-credentials.jpi and /usr/lib/jenkins/ssh-credentials.hpi
+/opt/openshift/plugins/ssh-credentials.jpi cksum 976543435 and /usr/lib/jenkins/ssh-credentials.hpi cksum 976543435
+Removing /opt/openshift/plugins/ssh-credentials.jpi
+Looking at /opt/openshift/plugins/structs.jpi and /usr/lib/jenkins/structs.hpi
+/opt/openshift/plugins/structs.jpi cksum 1963801980 and /usr/lib/jenkins/structs.hpi cksum 1963801980
+Removing /opt/openshift/plugins/structs.jpi
+Looking at /opt/openshift/plugins/subversion.jpi and /usr/lib/jenkins/subversion.hpi
+/opt/openshift/plugins/subversion.jpi cksum 205309761 and /usr/lib/jenkins/subversion.hpi cksum 205309761
+Removing /opt/openshift/plugins/subversion.jpi
+Looking at /opt/openshift/plugins/token-macro.jpi and /usr/lib/jenkins/token-macro.hpi
+/opt/openshift/plugins/token-macro.jpi cksum 901303461 and /usr/lib/jenkins/token-macro.hpi cksum 901303461
+Removing /opt/openshift/plugins/token-macro.jpi
+Looking at /opt/openshift/plugins/variant.jpi and /usr/lib/jenkins/variant.hpi
+/opt/openshift/plugins/variant.jpi cksum 1810310189 and /usr/lib/jenkins/variant.hpi cksum 1810310189
+Removing /opt/openshift/plugins/variant.jpi
+Looking at /opt/openshift/plugins/workflow-aggregator.jpi and /usr/lib/jenkins/workflow-aggregator.hpi
+/opt/openshift/plugins/workflow-aggregator.jpi cksum 2881442340 and /usr/lib/jenkins/workflow-aggregator.hpi cksum 2881442340
+Removing /opt/openshift/plugins/workflow-aggregator.jpi
+Looking at /opt/openshift/plugins/workflow-api.jpi and /usr/lib/jenkins/workflow-api.hpi
+/opt/openshift/plugins/workflow-api.jpi cksum 3654421658 and /usr/lib/jenkins/workflow-api.hpi cksum 3654421658
+Removing /opt/openshift/plugins/workflow-api.jpi
+Looking at /opt/openshift/plugins/workflow-basic-steps.jpi and /usr/lib/jenkins/workflow-basic-steps.hpi
+/opt/openshift/plugins/workflow-basic-steps.jpi cksum 470256006 and /usr/lib/jenkins/workflow-basic-steps.hpi cksum 470256006
+Removing /opt/openshift/plugins/workflow-basic-steps.jpi
+Looking at /opt/openshift/plugins/workflow-cps-global-lib.jpi and /usr/lib/jenkins/workflow-cps-global-lib.hpi
+/opt/openshift/plugins/workflow-cps-global-lib.jpi cksum 798986414 and /usr/lib/jenkins/workflow-cps-global-lib.hpi cksum 798986414
+Removing /opt/openshift/plugins/workflow-cps-global-lib.jpi
+Looking at /opt/openshift/plugins/workflow-cps.jpi and /usr/lib/jenkins/workflow-cps.hpi
+/opt/openshift/plugins/workflow-cps.jpi cksum 1861737152 and /usr/lib/jenkins/workflow-cps.hpi cksum 1861737152
+Removing /opt/openshift/plugins/workflow-cps.jpi
+Looking at /opt/openshift/plugins/workflow-durable-task-step.jpi and /usr/lib/jenkins/workflow-durable-task-step.hpi
+/opt/openshift/plugins/workflow-durable-task-step.jpi cksum 389587247 and /usr/lib/jenkins/workflow-durable-task-step.hpi cksum 389587247
+Removing /opt/openshift/plugins/workflow-durable-task-step.jpi
+Looking at /opt/openshift/plugins/workflow-job.jpi and /usr/lib/jenkins/workflow-job.hpi
+/opt/openshift/plugins/workflow-job.jpi cksum 2829486770 and /usr/lib/jenkins/workflow-job.hpi cksum 2829486770
+Removing /opt/openshift/plugins/workflow-job.jpi
+Looking at /opt/openshift/plugins/workflow-multibranch.jpi and /usr/lib/jenkins/workflow-multibranch.hpi
+/opt/openshift/plugins/workflow-multibranch.jpi cksum 1859515235 and /usr/lib/jenkins/workflow-multibranch.hpi cksum 1859515235
+Removing /opt/openshift/plugins/workflow-multibranch.jpi
+Looking at /opt/openshift/plugins/workflow-remote-loader.jpi and /usr/lib/jenkins/workflow-remote-loader.hpi
+/opt/openshift/plugins/workflow-remote-loader.jpi cksum 1059035913 and /usr/lib/jenkins/workflow-remote-loader.hpi cksum 1059035913
+Removing /opt/openshift/plugins/workflow-remote-loader.jpi
+Looking at /opt/openshift/plugins/workflow-scm-step.jpi and /usr/lib/jenkins/workflow-scm-step.hpi
+/opt/openshift/plugins/workflow-scm-step.jpi cksum 3791976377 and /usr/lib/jenkins/workflow-scm-step.hpi cksum 3791976377
+Removing /opt/openshift/plugins/workflow-scm-step.jpi
+Looking at /opt/openshift/plugins/workflow-step-api.jpi and /usr/lib/jenkins/workflow-step-api.hpi
+/opt/openshift/plugins/workflow-step-api.jpi cksum 2930130884 and /usr/lib/jenkins/workflow-step-api.hpi cksum 2930130884
+Removing /opt/openshift/plugins/workflow-step-api.jpi
+Looking at /opt/openshift/plugins/workflow-support.jpi and /usr/lib/jenkins/workflow-support.hpi
+/opt/openshift/plugins/workflow-support.jpi cksum 462445370 and /usr/lib/jenkins/workflow-support.hpi cksum 462445370
+Removing /opt/openshift/plugins/workflow-support.jpi
+Generating kubernetes-plugin configuration (/opt/openshift/configuration/config.xml.tpl) ...
+Generating administrative monitor configuration (/opt/openshift/configuration/config.xml.tpl) ...
+Generating kubernetes-plugin credentials (/var/lib/jenkins/credentials.xml.tpl) ...
+Copying Jenkins configuration to /var/lib/jenkins ...
+Creating initial Jenkins 'admin' user ...
+config.xml
+Administrative monitors that contact the update center will remain active
+Migrating slave image configuration to current version tag ...
++ exec java -XX:+UseParallelGC -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Xmx512m -Dfile.encoding=UTF8 -Djavamelody.displayed-counters=log,error -Duser.home=/var/lib/jenkins -Djavamelody.application-name=JENKINS -jar /usr/lib/jenkins/jenkins.war
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -Dsun.zip.disableMemoryMapping=true
+OpenJDK Server VM warning: If the number of processors is expected to increase from one, then you should configure the number of parallel GC threads appropriately using -XX:ParallelGCThreads=N
+Running from: /usr/lib/jenkins/jenkins.war
+webroot: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Nov 14, 2019 2:23:48 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @716ms to org.eclipse.jetty.util.log.JavaUtilLog
+Nov 14, 2019 2:23:49 PM winstone.Logger logInternal
+INFO: Beginning extraction from war file
+Nov 14, 2019 2:23:50 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Nov 14, 2019 2:23:50 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.z-SNAPSHOT; built: 2019-02-15T16:53:49.381Z; git: eb70b240169fcf1abbd86af36482d1c49826fa0b; jvm 1.8.0_222-b10
+Nov 14, 2019 2:23:51 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Nov 14, 2019 2:23:51 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Nov 14, 2019 2:23:51 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Nov 14, 2019 2:23:51 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: node0 Scavenging every 600000ms
+Jenkins home directory: /var/lib/jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+Nov 14, 2019 2:23:52 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started w.@17bd097{Jenkins v2.176.3,/,file:///var/lib/jenkins/war/,AVAILABLE}{/var/lib/jenkins/war}
+Nov 14, 2019 2:23:52 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@2a4fff{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+Nov 14, 2019 2:23:52 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @4835ms
+Nov 14, 2019 2:23:52 PM winstone.Logger logInternal
+INFO: Winstone Servlet Engine v4.0 running: controlPort=disabled
+Nov 14, 2019 2:23:55 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Nov 14, 2019 2:23:55 PM hudson.PluginManager loadDetachedPlugins
+INFO: Upgrading Jenkins. The last running version was 2.89.2. This Jenkins is version 2.176.3.
+Nov 14, 2019 2:23:55 PM hudson.PluginManager loadDetachedPlugins
+INFO: Upgraded Jenkins from version 2.89.2 to version 2.176.3. Loaded detached plugins (and dependencies): [jdk-tool.hpi]
+Nov 14, 2019 2:23:56 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /var/lib/jenkins/plugins/bouncycastle-api.jpi
+Nov 14, 2019 2:23:56 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /var/lib/jenkins/plugins/command-launcher.jpi
+Nov 14, 2019 2:23:57 PM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created /var/lib/jenkins/plugins/conditional-buildstep/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness
+Nov 14, 2019 2:23:57 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /var/lib/jenkins/plugins/windows-slaves.jpi
+Nov 14, 2019 2:23:57 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /var/lib/jenkins/plugins/antisamy-markup-formatter.jpi
+Nov 14, 2019 2:23:59 PM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created /var/lib/jenkins/plugins/job-dsl/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness
+Nov 14, 2019 2:24:00 PM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created /var/lib/jenkins/plugins/jsch/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness
+Nov 14, 2019 2:24:05 PM org.kohsuke.stapler.LocaleDrivenResourceProvider getLocaleDrivenResourceProviders
+INFO: Registered LocaleDrivenResourceProvider: jenkins.MetaLocaleDrivenResourceProvider@697c2b
+Nov 14, 2019 2:24:05 PM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created /var/lib/jenkins/plugins/run-condition/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness
+Nov 14, 2019 2:24:05 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /var/lib/jenkins/plugins/ant.jpi
+Nov 14, 2019 2:24:06 PM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created /var/lib/jenkins/plugins/ant/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness
+Nov 14, 2019 2:24:06 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /var/lib/jenkins/plugins/external-monitor-job.jpi
+Nov 14, 2019 2:24:06 PM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created /var/lib/jenkins/plugins/external-monitor-job/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness
+Nov 14, 2019 2:24:06 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /var/lib/jenkins/plugins/ldap.jpi
+Nov 14, 2019 2:24:07 PM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created /var/lib/jenkins/plugins/ldap/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness
+Nov 14, 2019 2:24:07 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /var/lib/jenkins/plugins/pam-auth.jpi
+Nov 14, 2019 2:24:07 PM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created /var/lib/jenkins/plugins/pam-auth/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness
+Nov 14, 2019 2:24:07 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: /var/lib/jenkins/plugins/javadoc.jpi
+Nov 14, 2019 2:24:07 PM hudson.ClassicPluginStrategy createClassJarFromWebInfClasses
+WARNING: Created /var/lib/jenkins/plugins/javadoc/WEB-INF/lib/classes.jar; update plugin to a version created with a newer harness
+Nov 14, 2019 2:24:09 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Nov 14, 2019 2:24:10 PM jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+INFO: Initializing Bouncy Castle security provider.
+Nov 14, 2019 2:24:10 PM jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
+INFO: Bouncy Castle security provider initialized.
+Nov 14, 2019 2:25:21 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Nov 14, 2019 2:25:22 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Nov 14, 2019 2:25:28 PM hudson.model.UserIdMigrator migrateUsers
+INFO: Migrating user 'admin' from 'users/admin/' to 'users/admin_6345225511414753096/'
+Nov 14, 2019 2:25:36 PM io.fabric8.jenkins.openshiftsync.GlobalPluginConfiguration configChange
+INFO: OpenShift Sync Plugin processing a newly supplied configuration
+Nov 14, 2019 2:25:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Nov 14, 2019 2:25:38 PM io.fabric8.jenkins.openshiftsync.GlobalPluginConfiguration$1 doRun
+INFO: Confirming Jenkins is started
+Nov 14, 2019 2:25:38 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Nov 14, 2019 2:25:38 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Nov 14, 2019 2:25:38 PM hudson.util.Retrier start
+INFO: Attempt #1 to do the action check updates server
+Nov 14, 2019 2:25:38 PM hudson.model.AllView migrateLegacyPrimaryAllViewLocalizedName
+INFO: JENKINS-38606 detected for AllView in hudson.model.Hudson@a78fdf; renaming view from All to all
+Nov 14, 2019 2:25:39 PM jenkins.util.groovy.GroovyHookScript execute
+INFO: Executing /var/lib/jenkins/init.groovy.d/update-center-init.groovy
+Nov 14, 2019 2:25:42 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@f4e41a: display name [Root WebApplicationContext]; startup date [Thu Nov 14 14:25:42 UTC 2019]; root of context hierarchy
+Nov 14, 2019 2:25:42 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@f4e41a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@97bcb6
+Nov 14, 2019 2:25:42 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@97bcb6: defining beans [authenticationManager]; root of factory hierarchy
+Nov 14, 2019 2:25:43 PM hudson.util.Retrier start
+INFO: Attempt #1 to do the action check updates server
+Nov 14, 2019 2:25:43 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@16334f1: display name [Root WebApplicationContext]; startup date [Thu Nov 14 14:25:43 UTC 2019]; root of context hierarchy
+Nov 14, 2019 2:25:43 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@16334f1]: org.springframework.beans.factory.support.DefaultListableBeanFactory@17e30ff
+Nov 14, 2019 2:25:43 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@17e30ff: defining beans [filter,legacy]; root of factory hierarchy
+Nov 14, 2019 2:25:44 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Nov 14, 2019 2:25:44 PM io.fabric8.jenkins.openshiftsync.BuildConfigWatcher start
+INFO: Now handling startup build configs!!
+Nov 14, 2019 2:25:44 PM io.fabric8.jenkins.openshiftsync.ConfigMapWatcher start
+INFO: Now handling startup config maps!!
+Nov 14, 2019 2:25:44 PM io.fabric8.jenkins.openshiftsync.ImageStreamWatcher start
+INFO: Now handling startup image streams!!
+Nov 14, 2019 2:25:44 PM io.fabric8.jenkins.openshiftsync.SecretWatcher start
+INFO: Now handling startup secrets!!
+Nov 14, 2019 2:25:45 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth
+INFO: OpenShift OAuth: enable oauth set to true force true lastCheck Thu Jan 01 00:00:00 UTC 1970
+Nov 14, 2019 2:25:45 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth
+INFO: OpenShift OAuth: configured security realm on startup: hudson.security.HudsonPrivateSecurityRealm@28da01 last check Thu Jan 01 00:00:00 UTC 1970
+Nov 14, 2019 2:25:47 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:25:47 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:25:47 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:25:47 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:25:48 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://openshift.example.com:8443 auth ep: https://openshift.example.com:8443/oauth/authorize token ep: https://openshift.example.com:8443/oauth/token
+Nov 14, 2019 2:25:48 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:25:48 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 2:25:48 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth returning true with namespace demo SA dir null default /run/secrets/kubernetes.io/serviceaccount SA name null default jenkins client ID null default system:serviceaccount:demo:jenkins secret null default eyJhb....... redirect null default https://openshift.example.com:8443 server null default https://kubernetes.default:443
+Nov 14, 2019 2:25:48 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://openshift.example.com:8443 auth ep: https://openshift.example.com:8443/oauth/authorize token ep: https://openshift.example.com:8443/oauth/token
+Nov 14, 2019 2:25:48 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 2:25:48 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth returning true with namespace demo SA dir null default /run/secrets/kubernetes.io/serviceaccount SA name null default jenkins client ID null default system:serviceaccount:demo:jenkins secret null default eyJhb....... redirect null default https://openshift.example.com:8443 server null default https://kubernetes.default:443
+Nov 14, 2019 2:25:48 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth
+INFO: OpenShift OAuth: running in OpenShift pod with required OAuth features: true
+Nov 14, 2019 2:25:50 PM io.fabric8.jenkins.openshiftsync.SecretWatcher$1 doRun
+INFO: creating Secret watch for namespace demo and resource version13723
+Nov 14, 2019 2:26:00 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:25:59 PM io.fabric8.jenkins.openshiftsync.ImageStreamWatcher$1 doRun
+INFO: creating ImageStream watch for namespace demo and resource version 13727
+Nov 14, 2019 2:26:11 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:26:14 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@800592: display name [Root WebApplicationContext]; startup date [Thu Nov 14 14:26:14 UTC 2019]; root of context hierarchy
+Nov 14, 2019 2:26:14 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@800592]: org.springframework.beans.factory.support.DefaultListableBeanFactory@187dab7
+Nov 14, 2019 2:26:14 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@187dab7: defining beans [filter,legacy]; root of factory hierarchy
+Nov 14, 2019 2:26:20 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth
+INFO: OpenShift OAuth: Jenkins security realm set to OpenShift OAuth
+Nov 14, 2019 2:26:20 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
+Nov 14, 2019 2:26:20 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth
+INFO: OpenShift OAuth: enable oauth set to true force false lastCheck Thu Nov 14 14:25:45 UTC 2019
+Nov 14, 2019 2:26:20 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth
+INFO: OpenShift OAuth: configured security realm on startup: hudson.security.HudsonPrivateSecurityRealm@28da01 last check Thu Nov 14 14:25:45 UTC 2019
+Nov 14, 2019 2:26:25 PM io.fabric8.jenkins.openshiftsync.BuildConfigWatcher$1 doRun
+INFO: creating BuildConfig watch for namespace demo and resource version 13727
+Nov 14, 2019 2:26:29 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://openshift.example.com:8443 auth ep: https://openshift.example.com:8443/oauth/authorize token ep: https://openshift.example.com:8443/oauth/token
+Nov 14, 2019 2:26:29 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 2:26:29 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth returning true with namespace demo SA dir null default /run/secrets/kubernetes.io/serviceaccount SA name null default jenkins client ID null default system:serviceaccount:demo:jenkins secret null default eyJhb....... redirect null default https://openshift.example.com:8443 server null default https://kubernetes.default:443
+Nov 14, 2019 2:26:30 PM io.fabric8.jenkins.openshiftsync.BuildWatcher$1 doRun
+INFO: creating Build watch for namespace demo and resource version 13727
+Nov 14, 2019 2:26:32 PM io.fabric8.jenkins.openshiftsync.ConfigMapWatcher$1 doRun
+INFO: creating ConfigMap watch for namespace demo and resource version 13726
+Nov 14, 2019 2:26:33 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:26:33 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://openshift.example.com:8443 auth ep: https://openshift.example.com:8443/oauth/authorize token ep: https://openshift.example.com:8443/oauth/token
+Nov 14, 2019 2:26:33 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:26:33 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 2:26:33 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth returning true with namespace demo SA dir null default /run/secrets/kubernetes.io/serviceaccount SA name null default jenkins client ID null default system:serviceaccount:demo:jenkins secret null default eyJhb....... redirect null default https://openshift.example.com:8443 server null default https://kubernetes.default:443
+Nov 14, 2019 2:26:33 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth
+INFO: OpenShift OAuth: running in OpenShift pod with required OAuth features: true
+Nov 14, 2019 2:26:39 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:26:40 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 2:27:20 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@63198c: display name [Root WebApplicationContext]; startup date [Thu Nov 14 14:27:20 UTC 2019]; root of context hierarchy
+Nov 14, 2019 2:27:20 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@63198c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1e00165
+Nov 14, 2019 2:27:21 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e00165: defining beans [filter,legacy]; root of factory hierarchy
+Nov 14, 2019 2:27:26 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth
+INFO: OpenShift OAuth: Jenkins security realm set to OpenShift OAuth
+Nov 14, 2019 2:27:51 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://openshift.example.com:8443 auth ep: https://openshift.example.com:8443/oauth/authorize token ep: https://openshift.example.com:8443/oauth/token
+Nov 14, 2019 2:27:54 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 2:27:55 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth returning true with namespace demo SA dir null default /run/secrets/kubernetes.io/serviceaccount SA name null default jenkins client ID null default system:serviceaccount:demo:jenkins secret null default eyJhb....... redirect null default https://openshift.example.com:8443 server null default https://kubernetes.default:443
+Nov 14, 2019 2:27:57 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 2:27:57 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm newOAuthSession
+INFO: OpenShift OAuth using the OpenShift Jenkins Login Plugin default for the OAuth endpoints
+Nov 14, 2019 2:27:57 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://openshift.example.com:8443 auth ep: https://openshift.example.com:8443/oauth/authorize token ep: https://openshift.example.com:8443/oauth/token
+Nov 14, 2019 2:27:58 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 2:27:58 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth returning true with namespace demo SA dir null default /run/secrets/kubernetes.io/serviceaccount SA name null default jenkins client ID null default system:serviceaccount:demo:jenkins secret null default eyJhb....... redirect null default https://openshift.example.com:8443 server null default https://kubernetes.default:443
+Nov 14, 2019 2:27:59 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 2:27:59 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm newOAuthSession
+INFO: OpenShift OAuth using the OpenShift Jenkins Login Plugin default for the OAuth endpoints
+Nov 14, 2019 2:30:57 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 2:35:51 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 2:35:54 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:38:43 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Nov 14, 2019 2:38:44 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Nov 14, 2019 2:38:53 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Nov 14, 2019 2:38:53 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Nov 14, 2019 2:38:54 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+Nov 14, 2019 2:38:54 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+Nov 14, 2019 2:39:35 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tools.JDKInstaller
+Nov 14, 2019 2:39:35 PM hudson.util.Retrier start
+INFO: Performed the action check updates server successfully at the attempt #1
+Nov 14, 2019 2:39:35 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tools.JDKInstaller
+Nov 14, 2019 2:39:35 PM hudson.util.Retrier start
+INFO: Performed the action check updates server successfully at the attempt #1
+Nov 14, 2019 2:39:35 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 837,057 ms
+Nov 14, 2019 2:40:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 2:45:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 2:45:45 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 2:50:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 2:55:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:00:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:00:45 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:05:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:10:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:15:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:20:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:20:45 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:20:45 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:25:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:30:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:35:45 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:35:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:40:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:45:16 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://openshift.example.com:8443 auth ep: https://openshift.example.com:8443/oauth/authorize token ep: https://openshift.example.com:8443/oauth/token
+Nov 14, 2019 3:45:16 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 3:45:16 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth returning true with namespace demo SA dir null default /run/secrets/kubernetes.io/serviceaccount SA name null default jenkins client ID null default system:serviceaccount:demo:jenkins secret null default eyJhb....... redirect null default https://openshift.example.com:8443 server null default https://kubernetes.default:443
+Nov 14, 2019 3:45:16 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 3:45:16 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm newOAuthSession
+INFO: OpenShift OAuth using the OpenShift Jenkins Login Plugin default for the OAuth endpoints
+Nov 14, 2019 3:45:25 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://openshift.example.com:8443 auth ep: https://openshift.example.com:8443/oauth/authorize token ep: https://openshift.example.com:8443/oauth/token
+Nov 14, 2019 3:45:25 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint
+INFO: OpenShift OAuth the server is 3.x, specifically OpenShiftVersionInfo: major: 1 minor: 11+ gitVersion: v1.11.0+d4cacc0
+Nov 14, 2019 3:45:25 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults
+INFO: OpenShift OAuth returning true with namespace demo SA dir null default /run/secrets/kubernetes.io/serviceaccount SA name null default jenkins client ID null default system:serviceaccount:demo:jenkins secret null default eyJhb....... redirect null default https://openshift.example.com:8443 server null default https://kubernetes.default:443
+Nov 14, 2019 3:45:25 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getRoleToPermissionMap
+INFO: OpenShift Jenkins Login Plugin could not find the openshift-jenkins-login-plugin-config config map in namespace demo so the default permission mapping will be used
+Nov 14, 2019 3:45:26 PM org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm updateAuthorizationStrategy
+INFO: OpenShift OAuth: adding permissions for user admin, stored in the matrix as admin-admin-edit-view, based on OpenShift roles [admin, edit, view]
+Nov 14, 2019 3:45:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:50:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:55:45 PM io.fabric8.jenkins.openshiftsync.BuildWatcher reconcileRunsAndBuilds
+INFO: Reconciling job runs and builds
+Nov 14, 2019 3:55:45 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:55:45 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:57:38 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Excess workload after pending Kubernetes agents: 1
+Nov 14, 2019 3:57:38 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Template for label docker: Kubernetes Pod Template
+Nov 14, 2019 3:57:39 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:57:40 PM hudson.slaves.NodeProvisioner$StandardStrategyImpl apply
+INFO: Started provisioning Kubernetes Pod Template from openshift with 1 executors. Remaining excess workload: 0
+Nov 14, 2019 3:57:49 PM hudson.slaves.NodeProvisioner$2 run
+INFO: Kubernetes Pod Template provisioning successfully completed. We have now 2 computer(s)
+Nov 14, 2019 3:57:50 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:57:50 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher launch
+WARNING: Error in provisioning; agent=KubernetesSlave name: jenkins-slave-wn82n-dj9gq, template=PodTemplate{, name='jenkins-slave-wn82n', namespace='demo', label='docker', volumes=[HostPathVolume [mountPath=/var/run/docker.sock, hostPath=/var/run/docker.sock]], containers=[ContainerTemplate{name='jnlp', image='192.168.1.202:5000/shubhamasati/donotcopy:jenkinsslave', alwaysPullImage=true, workingDir='/home/jenkins', args='${computer.jnlpmac} ${computer.name}', ttyEnabled=true, envVars=[KeyValueEnvVar [getValue()=, getKey()=http_proxy], KeyValueEnvVar [getValue()=, getKey()=https_proxy]]}]}
+io.fabric8.kubernetes.client.KubernetesClientException: Failure executing: POST at: https://172.30.0.1/api/v1/namespaces/demo/pods. Message: Forbidden!Configured service account doesn't have access. Service account may have been revoked. pods "jenkins-slave-wn82n-dj9gq" is forbidden: unable to validate against any security context constraint: [spec.volumes[0]: Invalid value: "hostPath": hostPath volumes are not allowed to be used].
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.requestFailure(OperationSupport.java:472)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.assertResponseCode(OperationSupport.java:409)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:381)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:344)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleCreate(OperationSupport.java:227)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.handleCreate(BaseOperation.java:766)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.create(BaseOperation.java:335)
+        at org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher.launch(KubernetesLauncher.java:105)
+        at hudson.slaves.SlaveComputer$1.call(SlaveComputer.java:294)
+        at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+        at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:71)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+
+Nov 14, 2019 3:57:50 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Terminating Kubernetes instance for agent jenkins-slave-wn82n-dj9gq
+Nov 14, 2019 3:57:50 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:57:50 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave deleteSlavePod
+WARNING: Failed to delete pod for agent demo/jenkins-slave-wn82n-dj9gq: not found
+Nov 14, 2019 3:57:50 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Disconnected computer jenkins-slave-wn82n-dj9gq
+ERROR: Failed to delete pod for agent demo/jenkins-slave-wn82n-dj9gq: not found
+Disconnected computer jenkins-slave-wn82n-dj9gq
+Nov 14, 2019 3:57:58 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Excess workload after pending Kubernetes agents: 1
+Nov 14, 2019 3:57:58 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Template for label docker: Kubernetes Pod Template
+Nov 14, 2019 3:57:58 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:57:59 PM hudson.slaves.NodeProvisioner$StandardStrategyImpl apply
+INFO: Started provisioning Kubernetes Pod Template from openshift with 1 executors. Remaining excess workload: 0
+Nov 14, 2019 3:58:08 PM hudson.slaves.NodeProvisioner$2 run
+INFO: Kubernetes Pod Template provisioning successfully completed. We have now 2 computer(s)
+Nov 14, 2019 3:58:09 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:58:09 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher launch
+WARNING: Error in provisioning; agent=KubernetesSlave name: jenkins-slave-wn82n-tpfrt, template=PodTemplate{, name='jenkins-slave-wn82n', namespace='demo', label='docker', volumes=[HostPathVolume [mountPath=/var/run/docker.sock, hostPath=/var/run/docker.sock]], containers=[ContainerTemplate{name='jnlp', image='192.168.1.202:5000/shubhamasati/donotcopy:jenkinsslave', alwaysPullImage=true, workingDir='/home/jenkins', args='${computer.jnlpmac} ${computer.name}', ttyEnabled=true, envVars=[KeyValueEnvVar [getValue()=, getKey()=http_proxy], KeyValueEnvVar [getValue()=, getKey()=https_proxy]]}]}
+io.fabric8.kubernetes.client.KubernetesClientException: Failure executing: POST at: https://172.30.0.1/api/v1/namespaces/demo/pods. Message: Forbidden!Configured service account doesn't have access. Service account may have been revoked. pods "jenkins-slave-wn82n-tpfrt" is forbidden: unable to validate against any security context constraint: [spec.volumes[0]: Invalid value: "hostPath": hostPath volumes are not allowed to be used].
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.requestFailure(OperationSupport.java:472)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.assertResponseCode(OperationSupport.java:409)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:381)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:344)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleCreate(OperationSupport.java:227)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.handleCreate(BaseOperation.java:766)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.create(BaseOperation.java:335)
+        at org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher.launch(KubernetesLauncher.java:105)
+        at hudson.slaves.SlaveComputer$1.call(SlaveComputer.java:294)
+        at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+        at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:71)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+
+Nov 14, 2019 3:58:09 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Terminating Kubernetes instance for agent jenkins-slave-wn82n-tpfrt
+Nov 14, 2019 3:58:09 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:58:09 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave deleteSlavePod
+WARNING: Failed to delete pod for agent demo/jenkins-slave-wn82n-tpfrt: not found
+Nov 14, 2019 3:58:09 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Disconnected computer jenkins-slave-wn82n-tpfrt
+ERROR: Failed to delete pod for agent demo/jenkins-slave-wn82n-tpfrt: not found
+Disconnected computer jenkins-slave-wn82n-tpfrt
+Nov 14, 2019 3:58:18 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Excess workload after pending Kubernetes agents: 1
+Nov 14, 2019 3:58:18 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Template for label docker: Kubernetes Pod Template
+Nov 14, 2019 3:58:18 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:58:18 PM hudson.slaves.NodeProvisioner$StandardStrategyImpl apply
+INFO: Started provisioning Kubernetes Pod Template from openshift with 1 executors. Remaining excess workload: 0
+Nov 14, 2019 3:58:28 PM hudson.slaves.NodeProvisioner$2 run
+INFO: Kubernetes Pod Template provisioning successfully completed. We have now 2 computer(s)
+Nov 14, 2019 3:58:29 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:58:29 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher launch
+WARNING: Error in provisioning; agent=KubernetesSlave name: jenkins-slave-wn82n-87sxj, template=PodTemplate{, name='jenkins-slave-wn82n', namespace='demo', label='docker', volumes=[HostPathVolume [mountPath=/var/run/docker.sock, hostPath=/var/run/docker.sock]], containers=[ContainerTemplate{name='jnlp', image='192.168.1.202:5000/shubhamasati/donotcopy:jenkinsslave', alwaysPullImage=true, workingDir='/home/jenkins', args='${computer.jnlpmac} ${computer.name}', ttyEnabled=true, envVars=[KeyValueEnvVar [getValue()=, getKey()=http_proxy], KeyValueEnvVar [getValue()=, getKey()=https_proxy]]}]}
+io.fabric8.kubernetes.client.KubernetesClientException: Failure executing: POST at: https://172.30.0.1/api/v1/namespaces/demo/pods. Message: Forbidden!Configured service account doesn't have access. Service account may have been revoked. pods "jenkins-slave-wn82n-87sxj" is forbidden: unable to validate against any security context constraint: [spec.volumes[0]: Invalid value: "hostPath": hostPath volumes are not allowed to be used].
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.requestFailure(OperationSupport.java:472)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.assertResponseCode(OperationSupport.java:409)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:381)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:344)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleCreate(OperationSupport.java:227)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.handleCreate(BaseOperation.java:766)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.create(BaseOperation.java:335)
+        at org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher.launch(KubernetesLauncher.java:105)
+        at hudson.slaves.SlaveComputer$1.call(SlaveComputer.java:294)
+        at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+        at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:71)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+
+Nov 14, 2019 3:58:29 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Terminating Kubernetes instance for agent jenkins-slave-wn82n-87sxj
+Nov 14, 2019 3:58:29 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+ERROR: Failed to delete pod for agent demo/jenkins-slave-wn82n-87sxj: not found
+Disconnected computer jenkins-slave-wn82n-87sxj
+Nov 14, 2019 3:58:29 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave deleteSlavePod
+WARNING: Failed to delete pod for agent demo/jenkins-slave-wn82n-87sxj: not found
+Nov 14, 2019 3:58:29 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Disconnected computer jenkins-slave-wn82n-87sxj
+Nov 14, 2019 3:58:38 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Excess workload after pending Kubernetes agents: 1
+Nov 14, 2019 3:58:38 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Template for label docker: Kubernetes Pod Template
+Nov 14, 2019 3:58:38 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:58:39 PM hudson.slaves.NodeProvisioner$StandardStrategyImpl apply
+INFO: Started provisioning Kubernetes Pod Template from openshift with 1 executors. Remaining excess workload: 0
+Nov 14, 2019 3:58:48 PM hudson.slaves.NodeProvisioner$2 run
+INFO: Kubernetes Pod Template provisioning successfully completed. We have now 2 computer(s)
+Nov 14, 2019 3:58:48 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Excess workload after pending Kubernetes agents: 0
+Nov 14, 2019 3:58:48 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Template for label docker: Kubernetes Pod Template
+Nov 14, 2019 3:58:49 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:58:49 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher launch
+WARNING: Error in provisioning; agent=KubernetesSlave name: jenkins-slave-wn82n-p7578, template=PodTemplate{, name='jenkins-slave-wn82n', namespace='demo', label='docker', volumes=[HostPathVolume [mountPath=/var/run/docker.sock, hostPath=/var/run/docker.sock]], containers=[ContainerTemplate{name='jnlp', image='192.168.1.202:5000/shubhamasati/donotcopy:jenkinsslave', alwaysPullImage=true, workingDir='/home/jenkins', args='${computer.jnlpmac} ${computer.name}', ttyEnabled=true, envVars=[KeyValueEnvVar [getValue()=, getKey()=http_proxy], KeyValueEnvVar [getValue()=, getKey()=https_proxy]]}]}
+io.fabric8.kubernetes.client.KubernetesClientException: Failure executing: POST at: https://172.30.0.1/api/v1/namespaces/demo/pods. Message: Forbidden!Configured service account doesn't have access. Service account may have been revoked. pods "jenkins-slave-wn82n-p7578" is forbidden: unable to validate against any security context constraint: [spec.volumes[0]: Invalid value: "hostPath": hostPath volumes are not allowed to be used].
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.requestFailure(OperationSupport.java:472)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.assertResponseCode(OperationSupport.java:409)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:381)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:344)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleCreate(OperationSupport.java:227)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.handleCreate(BaseOperation.java:766)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.create(BaseOperation.java:335)
+        at org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher.launch(KubernetesLauncher.java:105)
+        at hudson.slaves.SlaveComputer$1.call(SlaveComputer.java:294)
+        at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+        at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:71)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+
+Nov 14, 2019 3:58:49 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Terminating Kubernetes instance for agent jenkins-slave-wn82n-p7578
+Nov 14, 2019 3:58:49 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:58:49 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave deleteSlavePod
+WARNING: Failed to delete pod for agent demo/jenkins-slave-wn82n-p7578: not found
+Nov 14, 2019 3:58:49 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Disconnected computer jenkins-slave-wn82n-p7578
+ERROR: Failed to delete pod for agent demo/jenkins-slave-wn82n-p7578: not found
+Disconnected computer jenkins-slave-wn82n-p7578
+Nov 14, 2019 3:58:58 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Excess workload after pending Kubernetes agents: 1
+Nov 14, 2019 3:58:58 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Template for label docker: Kubernetes Pod Template
+Nov 14, 2019 3:58:58 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:58:59 PM hudson.slaves.NodeProvisioner$StandardStrategyImpl apply
+INFO: Started provisioning Kubernetes Pod Template from openshift with 1 executors. Remaining excess workload: 0
+Nov 14, 2019 3:59:08 PM hudson.slaves.NodeProvisioner$2 run
+INFO: Kubernetes Pod Template provisioning successfully completed. We have now 2 computer(s)
+Nov 14, 2019 3:59:08 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Excess workload after pending Kubernetes agents: 0
+Nov 14, 2019 3:59:08 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesCloud provision
+INFO: Template for label docker: Kubernetes Pod Template
+Nov 14, 2019 3:59:09 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:59:09 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher launch
+WARNING: Error in provisioning; agent=KubernetesSlave name: jenkins-slave-wn82n-6x9fg, template=PodTemplate{, name='jenkins-slave-wn82n', namespace='demo', label='docker', volumes=[HostPathVolume [mountPath=/var/run/docker.sock, hostPath=/var/run/docker.sock]], containers=[ContainerTemplate{name='jnlp', image='192.168.1.202:5000/shubhamasati/donotcopy:jenkinsslave', alwaysPullImage=true, workingDir='/home/jenkins', args='${computer.jnlpmac} ${computer.name}', ttyEnabled=true, envVars=[KeyValueEnvVar [getValue()=, getKey()=http_proxy], KeyValueEnvVar [getValue()=, getKey()=https_proxy]]}]}
+io.fabric8.kubernetes.client.KubernetesClientException: Failure executing: POST at: https://172.30.0.1/api/v1/namespaces/demo/pods. Message: Forbidden!Configured service account doesn't have access. Service account may have been revoked. pods "jenkins-slave-wn82n-6x9fg" is forbidden: unable to validate against any security context constraint: [spec.volumes[0]: Invalid value: "hostPath": hostPath volumes are not allowed to be used].
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.requestFailure(OperationSupport.java:472)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.assertResponseCode(OperationSupport.java:409)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:381)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleResponse(OperationSupport.java:344)
+        at io.fabric8.kubernetes.client.dsl.base.OperationSupport.handleCreate(OperationSupport.java:227)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.handleCreate(BaseOperation.java:766)
+        at io.fabric8.kubernetes.client.dsl.base.BaseOperation.create(BaseOperation.java:335)
+        at org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher.launch(KubernetesLauncher.java:105)
+        at hudson.slaves.SlaveComputer$1.call(SlaveComputer.java:294)
+        at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+        at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:71)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:748)
+
+Nov 14, 2019 3:59:09 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Terminating Kubernetes instance for agent jenkins-slave-wn82n-6x9fg
+Nov 14, 2019 3:59:09 PM okhttp3.internal.platform.Platform log
+INFO: ALPN callback dropped: HTTP/2 is disabled. Is alpn-boot on the boot class path?
+Nov 14, 2019 3:59:09 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave deleteSlavePod
+WARNING: Failed to delete pod for agent demo/jenkins-slave-wn82n-6x9fg: not found
+ERROR: Failed to delete pod for agent demo/jenkins-slave-wn82n-6x9fg: not found
+Disconnected computer jenkins-slave-wn82n-6x9fg
+Nov 14, 2019 3:59:09 PM org.csanchez.jenkins.plugins.kubernetes.KubernetesSlave _terminate
+INFO: Disconnected computer jenkins-slave-wn82n-6x9fg
+[root@openshift etcd]#
+[root@openshift etcd]#
