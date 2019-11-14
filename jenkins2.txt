@@ -1,0 +1,8 @@
+WARNING: Error in provisioning; agent=KubernetesSlave name: jenkins-slave-p07p4-1mdtx, template=PodTemplate{, name='jenkins-slave-p07p4', namespace='demo', label='docker', volumes=[HostPathVolume [mountPath=/var/run/docker.sock, hostPath=/var/run/docker.sock]], containers=[ContainerTemplate{name='jnlp', image='192.168.1.202:5000/shubhamasati/donotcopy:jenkinsslave', alwaysPullImage=true, workingDir='/home/jenkins', args='${computer.jnlpmac} ${computer.name}', ttyEnabled=true, envVars=[KeyValueEnvVar [getValue()=, getKey()=http_proxy], KeyValueEnvVar [getValue()=, getKey()=https_proxy]]}]}
+io.fabric8.kubernetes.client.KubernetesClientException: Operation: [get]  for kind: [Pod]  with name: [jenkins-slave-p07p4-1mdtx]  in namespace: [demo]  failed.
+	at io.fabric8.kubernetes.client.KubernetesClientException.launderThrowable(KubernetesClientException.java:62)
+	at io.fabric8.kubernetes.client.KubernetesClientException.launderThrowable(KubernetesClientException.java:71)
+	at io.fabric8.kubernetes.client.dsl.base.BaseOperation.getMandatory(BaseOperation.java:207)
+	at io.fabric8.kubernetes.client.dsl.base.BaseOperation.get(BaseOperation.java:163)
+	at org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher.launch(KubernetesLauncher.java:124)
+	at hudson.slaves.SlaveComputer$1.call(SlaveComputer.java:294)
